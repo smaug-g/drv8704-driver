@@ -1,7 +1,7 @@
 /*
     Logger.h - simple logging library for REV projects
 
-    Created by REV for SEM. March 16, 2018
+    Created by Sergio Mauricio Guerrero for REV. March 16, 2018
 
     Outputs log messages to serial port
 
@@ -14,8 +14,7 @@
 
 */
 
-#ifndef Logger_h
-#define Logger_h
+#pragma once
 
 #include <Arduino.h>
 
@@ -82,5 +81,3 @@ class Logger {
 
 
 };
-
-#endif

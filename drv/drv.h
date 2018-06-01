@@ -22,9 +22,7 @@
   ** see drv.h for full doc **
 
 */
-#ifndef drv_h
-#define drv_h
-
+#pragma once
 #include <Arduino.h>
 #include <SPI.h>
 
@@ -291,4 +289,4 @@ class drv {
         
 };
 
-#endif
+

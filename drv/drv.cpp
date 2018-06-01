@@ -24,8 +24,8 @@
 */
 #include <SPI.h>
 #include <Arduino.h>
-#include "drv.h"
-#include "Logger.h"
+#include <drv.h>
+#include <Logger.h>
 
 // initialize logging object
 Logger logger("DRV8704", "info");
